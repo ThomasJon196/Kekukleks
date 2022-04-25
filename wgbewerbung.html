@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>
+                WG-Bewerbung
+            </h1>
+        </header>
+        <main>
+            <article>
+                <p>
+                     Schönen Guten Tag um einen Termin für eine WG-Besichtigung zu erhalten fülle bitte diese Form aus.
+                </p>
+            </article>
+            <form action="submission.html" method="POST">
+            <section class="name">
+                <span>Wie wirst du genannt?</span>
+                <br>
+                <input type="text" name="name" id="name" required>
+            </section>
+            <section class="wo">
+                <span>Was ist dein derzeitiger Wohnort?</span>
+                <br>
+                <input type="radio" name="wo" id="bonn" value="bonn">
+                <label for="yes">In Bonn</label>
+                <input type="radio" name="wo" id="nbonn" value="nbonn">
+                <label for="nbonn">Ausserhalb Bonns</label>
+                <input type="radio" name="wo" id="egal" value="egal">
+                <label for="egal">Geht euch nichts an!</label>
+            </section>
+            <section class="online">
+                <span>Bevorzugte Besichtigungsart:</span>
+                <br>
+                <input type="radio" name="online" id="onlin" value="onlin" required>
+                <label for="onlin">Online ist gut</label>
+                <input type="radio" name="online" id="offline" value="offline">
+                <label for="nbonn">Offline ist natürlich besser!</label>
+                <input type="radio" name="online" id="egalo" value="egalo">
+                <label for="egalo">Ist mir beides recht!</label>                
+            </section>
+            <section class="geschwister">
+                <span>Anzahl der Geschwister:</span>
+                <input type="number" name="geschwister" id="geschwister" required min="0" max="20">
+            </section>
+            <h3>
+                Soo nach diesen formalen Informationen wollen wir noch etwas über dich erfahren:
+            </h3>
+            <br>
+            <section class="info">
+                <label for="info">Erzähle uns bitte etwas über dich:</label>
+                <br>
+                <textarea id="info" name="info" rows="8" cols="100"></textarea>
+            </section>
+
+            <section class="submission">
+                <input type="submit" value="Abschicken">
+              </section>
+            </form>
+        </main>
+    </body>
+</html>
