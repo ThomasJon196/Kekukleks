@@ -1,0 +1,54 @@
+* {
+  font-family: "Helvetica Neue";
+  color:rgb(0, 0, 0);
+}
+
+h1 {
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  text-align: center;
+  font-size: 37px;
+}
+
+body {
+  background: rgb(146, 168, 209);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 150%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(146, 168, 209);
+}
+
+li {
+  float: left;
+  border-left: solid;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(98, 114, 143);
+}
+
+.last {
+  border-right: solid;
+}
+
+.frage {
+  font-size: 16px ;
+}

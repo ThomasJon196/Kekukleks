@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+    <head>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class='container'>
+        <header>
+            <nav>
+                <ul class="navbar">
+                    <li class="current">
+                        <a href="wgbewerbung.html">Bewerbung</a>
+                    </li>
+                    <li class="current">
+                        <a href="info.html">So siehts aus</a>
+                    </li>
+                    <li class="last">
+                        <a href="putzplan.html">Putzplan</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1>
+                WG-Bewerbung
+            </h1>
+        </header>
+        </section>
+        <main>
+            <article>
+                <h3>
+                    <p>
+                         Schönen Guten Tag um einen Termin für eine WG-Besichtigung zu erhalten fülle bitte diese Form aus.
+                    </p>
+                </h3>
+            </article>
+            <form action="submission.html" method="POST">
+            <section class="name">
+                <span class="frage">Wie wirst du genannt?</span>
+                <br>
+                <input type="text" name="name" id="name" required>
+            </section>
+            <br>
+            <section class="wo">
+                <span class="frage">Was ist dein derzeitiger Wohnort?</span>
+                <br>
+                <input type="radio" name="wo" id="bonn" value="bonn">
+                <label for="wo">In Bonn</label>
+                <input type="radio" name="wo" id="nbonn" value="nbonn">
+                <label for="nbonn">Ausserhalb Bonns</label>
+                <input type="radio" name="wo" id="egal" value="egal">
+                <label for="egal">Geht euch nichts an!</label>
+            </section>
+            <br>
+            <section class="online">
+                <span class="frage">Bevorzugte Besichtigungsart:</span>
+                <br>
+                <input type="radio" name="online" id="onlin" value="onlin" required>
+                <label for="onlin">Online ist gut</label>
+                <input type="radio" name="online" id="offline" value="offline">
+                <label for="nbonn">Offline ist natürlich besser!</label>
+                <input type="radio" name="online" id="egalo" value="egalo">
+                <label for="egalo">Ist mir beides recht!</label>                
+            </section>
+            <br>
+            <section class="geschwister">
+                <span class="frage">Anzahl der Geschwister:</span>
+                <input type="number" name="geschwister" id="geschwister" required min="0" max="20">
+            </section>
+            <br>
+            <h3>
+                Soo nach diesen formalen Informationen wollen wir noch etwas über dich erfahren:
+            </h3>
+            <br>
+            <section class="info">
+                <label for="info" class="frage">Erzähle uns bitte etwas über dich:</label>
+                <br>
+                <textarea id="info" name="info" rows="8" cols="100"></textarea>
+            </section>
+            <br>
+            <section class="submission">
+                <input type="submit" value="Abschicken">
+              </section>
+            </form>
+        </main>
+    </body>
+</html>
