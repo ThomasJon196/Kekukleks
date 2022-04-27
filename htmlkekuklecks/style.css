@@ -1,5 +1,5 @@
 * {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetic";
   color:rgb(0, 0, 0);
 }
 
@@ -9,6 +9,18 @@ h1 {
   border-bottom-style: solid;
   text-align: center;
   font-size: 37px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 17px;
 }
 
 body {
@@ -50,5 +62,28 @@ li a:hover {
 }
 
 .frage {
-  font-size: 16px ;
+  font-size: 17px ;
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid  rgb(98, 114, 143);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
 }
