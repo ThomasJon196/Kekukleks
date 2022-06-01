@@ -16,3 +16,7 @@ Bestes Wg Projekt mit Drone und Cloud
 - Personal interest: Aquire knowledge in: web-dev
 - How much time: 2 hours per week.
 
+### Setup Django Project
+
+- Install requirements: `pip install -r requirements.txt`
+- Run django-server: `py manage.py runserver`
