@@ -29,3 +29,4 @@ Bestes Wg Projekt mit Drone und Cloud
 
 02.05.22
 - Installed docker on RPi via [docker installation on Pi](https://phoenixnap.com/kb/docker-on-raspberry-pi)
+- Installed docker-compose [docker compose install](https://jfrog.com/connect/post/install-docker-compose-on-raspberry-pi/)
