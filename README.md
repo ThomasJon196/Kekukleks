@@ -20,3 +20,12 @@ Bestes Wg Projekt mit Drone und Cloud
 
 - Install requirements: `pip install -r requirements.txt`
 - Run django-server: `py manage.py runserver`
+
+
+## LOG
+
+01.05.22
+- Created django-project and added WG-website
+
+02.05.22
+- Installed docker on RPi via [docker installation on Pi](https://phoenixnap.com/kb/docker-on-raspberry-pi)
